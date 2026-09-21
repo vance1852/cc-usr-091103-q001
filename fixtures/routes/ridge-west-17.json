@@ -1,0 +1,44 @@
+{
+  "routeId": "ridge-west-17",
+  "name": "西脊十七号线",
+  "region": "west-ridge",
+  "rangerStation": "西脊管护站",
+  "segments": [
+    {
+      "segmentId": "seg-approach",
+      "name": "山口至碎石坡脚",
+      "maxElevM": 1620,
+      "terrainClass": "B2",
+      "escapeRoutes": ["山口营地支线"]
+    },
+    {
+      "segmentId": "seg-scree",
+      "name": "碎石坡至西脊垭口",
+      "maxElevM": 2680,
+      "terrainClass": "B3",
+      "escapeRoutes": ["北侧横切道"]
+    },
+    {
+      "segmentId": "seg-ridge",
+      "name": "西脊刃脊段",
+      "maxElevM": 2980,
+      "terrainClass": "C2",
+      "exposedRidge": true,
+      "escapeRoutes": []
+    },
+    {
+      "segmentId": "seg-saddle",
+      "name": "主峰鞍部",
+      "maxElevM": 3050,
+      "terrainClass": "C1",
+      "escapeRoutes": ["南坡下撤道"]
+    },
+    {
+      "segmentId": "seg-descent",
+      "name": "南坡下撤至三号营地",
+      "maxElevM": 2100,
+      "terrainClass": "B2",
+      "escapeRoutes": ["三号营地"]
+    }
+  ]
+}
