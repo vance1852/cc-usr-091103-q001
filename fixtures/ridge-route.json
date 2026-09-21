@@ -1,0 +1,40 @@
+{
+  "routeId": "ridge-west-17",
+  "name": "西脊 17 号穿越线",
+  "terrainClass": "ALPINE_RIDGE",
+  "segments": [
+    {
+      "segmentId": "seg-approach",
+      "name": "林线接近路",
+      "fromWaypoint": "trailhead",
+      "toWaypoint": "tree-line-camp",
+      "elevationM": 2100,
+      "plannedStart": "2026-10-04T03:00:00+08:00",
+      "plannedEnd": "2026-10-04T06:00:00+08:00",
+      "limits": { "windGustKph": 70, "visibilityM": 100, "precipitationMm": 20 }
+    },
+    {
+      "segmentId": "seg-ridge-high",
+      "name": "高海拔刃脊",
+      "fromWaypoint": "tree-line-camp",
+      "toWaypoint": "west-summit",
+      "elevationM": 3420,
+      "plannedStart": "2026-10-04T06:00:00+08:00",
+      "plannedEnd": "2026-10-04T10:00:00+08:00",
+      "limits": { "windGustKph": 60, "visibilityM": 200, "precipitationMm": 10 },
+      "exposure": "FULL",
+      "rescueEtaMinutes": 95
+    },
+    {
+      "segmentId": "seg-descent",
+      "name": "北坡下撤道",
+      "fromWaypoint": "west-summit",
+      "toWaypoint": "north-valley",
+      "elevationM": 2600,
+      "plannedStart": "2026-10-04T10:00:00+08:00",
+      "plannedEnd": "2026-10-04T12:00:00+08:00",
+      "limits": { "windGustKph": 65, "visibilityM": 150, "precipitationMm": 15 }
+    }
+  ],
+  "bulletinRegion": "RIDGE-WEST"
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "memberId": "member-lin",
+    "name": "林领队",
+    "role": "LEADER",
+    "tolerance": { "windGustKph": { "max": 65 }, "visibilityM": { "min": 150 } }
+  },
+  {
+    "memberId": "member-zhao",
+    "name": "赵新队员",
+    "role": "MEMBER",
+    "tolerance": { "windGustKph": { "max": 55 }, "precipitationMm": { "max": 12 } },
+    "firstSeason": true
+  }
+]

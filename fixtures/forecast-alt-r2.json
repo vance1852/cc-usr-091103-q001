@@ -1,0 +1,12 @@
+{
+  "eventId": "wx-ridge-17-alt-r2",
+  "source": "alpine-post-station",
+  "routeId": "ridge-west-17",
+  "revision": 2,
+  "issuedAt": "2026-10-03T18:25:00+08:00",
+  "validFrom": "2026-10-04T00:00:00+08:00",
+  "validTo": "2026-10-04T12:00:00+08:00",
+  "values": { "windGustKph": 70, "visibilityM": 150, "precipitationMm": 14 },
+  "stationId": "APS-07",
+  "note": "冷锋提前，山脊站 18 时放球观测"
+}

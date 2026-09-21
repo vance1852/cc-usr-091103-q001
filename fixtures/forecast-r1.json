@@ -1,0 +1,11 @@
+{
+  "eventId": "wx-ridge-17-r1",
+  "source": "regional-observatory",
+  "routeId": "ridge-west-17",
+  "revision": 1,
+  "issuedAt": "2026-10-03T16:00:00+08:00",
+  "validFrom": "2026-10-04T00:00:00+08:00",
+  "validTo": "2026-10-04T12:00:00+08:00",
+  "values": { "windGustKph": 45, "visibilityM": 9000, "precipitationMm": 2 },
+  "bulletinCode": "CW-2026-408"
+}
